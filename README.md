@@ -1,6 +1,8 @@
-## Angular / AngularJS Upgrade Test
+# Angular / AngularJS Upgrade Test
 
-### Setup Steps:
+Simplified Implementation of an AngularJS/Angular Hybrid Application
+
+## Setup Steps:
 
 1. Install Dependencies
   - Webpack
@@ -47,7 +49,7 @@
 
 8. Setup scripts
 
-9. Globally avaialable Types with _refereces.d.ts
+9. Globally avaialable Objects (and types?) with _refereces.d.ts
 
 10. AJS/AngularJS Hybrid
   - Add App Module AJS
@@ -66,3 +68,31 @@
 
 12. Create Component Module
   - Ensure App Module Loads Component Module
+
+
+## Questions:
+
+  > What triggers a watch update?
+
+  - [x] config.json
+  - [x] app-bootstrap.ts
+  - [ ] .ts files
+  - [ ] .json files
+  - [ ] .module.ts files?
+  - [ ] .module.ajs files?
+  - [ ] .html files
+  - [ ] _references.d.ts?
+  - [ ] webpack.config.jss?
+
+> Why .ejs file?
+
+
+## Goals 
+
+- [ ] Run `ngc` (`npm run build:ng`) without errors
+- [ ] Move to AOT Compilation
+  - requires ngc?
+  - PlatformBrowser() vs PlatformBrowserDynamic()
+  - @ngtools/webpack
+- [ ] No More AngularJS?
+- [ ] API Data Requests and Precompiled HTML?
