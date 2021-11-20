@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 export class LayoutController implements ng.IController {
   public currentStateCSS: string;
   public text: string;
@@ -9,5 +11,6 @@ export class LayoutController implements ng.IController {
   public $onInit(): void {
     this.currentStateCSS = 'pink'
     this.text = SETTINGS_OBJ.constants.angularJsTest;
+
   }
 }
