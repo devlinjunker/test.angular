@@ -1,0 +1,7 @@
+{
+  "auth": false,
+  "constants": {
+    "angularJsTest": "Hello AngularJS World!",
+    "angularTest": "Hello Angular World"
+  }
+}

@@ -1,0 +1,164 @@
+10153  npm install angular
+10154  less package.json
+10155  :q
+10156  npm install @angular
+10157  npm install @angular/core
+10158  npm install @angular/common
+10159  npm install typescript
+10160  npm install webpack@4
+10161  npm install karma mocha
+10162  npm install html-loader
+10163  npm install html-loader@0.5.5
+10164  npm install html-webpack-plugin
+10165  npm install html-webpack-plugin@3.2
+10166  less package.json
+10167  code ./
+10168  npm install jquery
+10169  npm install @types/jquery
+10170  npm install @angular/platform-browser
+10171  npm install @angular/platform-browser-dynamic
+10172  less package.json
+10173  npm install @types/angular
+10174  npm install nodemon
+10175  npm install lodash
+10176  npm run build
+10177  netexp
+10178  vnc 192.168.0.2
+10179  npm run build
+10180  less package.json
+10181  npm install -D ts-loader
+10182  npm install -D ts-loader@4.4.2
+10183  npm run build
+10184  npm install @angular/common
+10185  npm run build
+10186  npm install -D @angular/compiler
+10187  npm run build
+10188  npm run build:ng
+10189  npm run build:ngc
+10190  cls
+10191  npm install @ngtools/webpack
+10192  npm install @ngtools/webpack@10
+10193  npm install @angular/compiler@12
+10194  npm install @ngtools/webpack@10
+10195  npm install -D @angular/compiler-clie@12
+10196  npm install -D @angular/compiler-cli@12
+10197  npm install -D typescript@4.3
+10198  npm install -D @angular/compiler-cli@12
+10199  npm install @ngtools/webpack@10
+10200  npm install -D @angular/compiler-cli@10
+10201  npm uninstall @angular/compiler
+10202  npm install -D @angular/compiler-cli@10
+10203  npm install -D typescript@4.1
+10204  npm install @ngtools/webpack@10
+10205  npm install -D typescript@4.2
+10206  npm install @ngtools/webpack@10
+10207  npm install -D @angular/compiler-cli@10
+10208  npm install -D @angular/compiler-cli@11
+10209  npm install -D @angular/compiler-cli@12
+10210  npm install @ngtools/webpack@10
+10211  npm install @ngtools/webpack@10 --force
+10212  npm run build:ngc
+10213  npm run build
+10214  npm install -D @angular/upgrade
+10215  npm install -D @angular/upgrade@12
+10216  npm install -D @angular/core@12
+10217  npm install -D @angular/upgrade@12
+10218  npm install -D @angular/common@12
+10219  npm install -D @angular/upgrade@12
+10220  npm install -D @angular/platform-browser@12
+10221  npm install -D @angular/platform-browser-dynamic@12
+10222  npm install -D @angular/upgrade@12
+10223  cls
+10224  npm run build
+10225  ls
+10226  less dist
+10227  ls dist
+10228  ls node_modules
+10229  ls dist/index.html
+10230  less dist/index.html
+10231  :q
+10232  open dist/index.html
+10233  ls
+10234  npm install -D express@4.16
+10235  npm install -D express-http-proxy@1
+10236  npm run watch:dev
+10237  npm run build
+10238  npm run watch
+10239  npm run run:dev
+10240  npm install nodemon@1.18
+10241  npm run run:dev
+10242  ls
+10243  npm run run:dev
+10244  cd Code/js/test.
+10245  cd Code/js/test.angular
+10246  npm install -D copy-webpack-plugin
+10247  npm install -D copy-webpack-plugin@6
+10248* npm run run:dev
+10249* npm run watch:dev
+10250* npm build
+10251* npm run build
+10252* npm run run:dev
+10253* npm run serve:dev
+10254  npm install -D zone
+10255  npm uninstall zone
+10256  npm install zone.js
+10257* npm run build
+10258* npm run serve:dev
+10259* npm run build
+10260* npm run serve:dev
+10261* npm run build
+10262* npm run serve:dev
+10263* npm run build
+10264* npm run build:ngc
+10265* npm run serve:dev
+10266* npm run watch:dev
+10267* npm run build:ngc
+10268* npm run build
+10269* npm run serve:dev
+10270* npm run build
+10271* npm run serve:dev
+10272* npm run build
+10273* npm run serve:dev
+10274* npm run build
+10275* npm run serve:dev
+10276* npm run build
+10277* npm run serve:dev
+10278* npm run build
+10279* npm install core-js
+10280* npm run build
+10281* less package.json
+10282* npm install -D core-js
+10283* less package.json
+10284* npm run build
+10285  git diff
+10286* npm run build
+10287* ls node_modules/core-js/proposals/reflect-metadata.js
+10288* npm run build
+10289* ls node_modules/core-js/proposals/reflect-metadata.js
+10290* ls node_modules/core-js/es/q
+10291* npm run build
+10292* npm run serve
+10293* npm run build
+10294  npm run clean
+10295* ls
+10296* npm run build
+10297* npm run serve
+10298* npm run build
+10299* npm run serve
+10300* npm run watch:dev
+10301* npm run build
+10302* npm run watch:dev
+10303* npm run build
+10304* npm run watch
+10305* npm run watch:dev
+10306* npm run build
+10307* npm run serve
+10308* npm run watch:dev
+10309* npm run build
+10310* npm run watch:dev
+10311* npm run build
+10312* npm run watch:dev
+10313* npm run build
+10314* npm run watch:dev
+10315* npm run build
+10316* npm run watch:dev

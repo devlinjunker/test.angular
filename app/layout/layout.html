@@ -1,0 +1,11 @@
+<div ng-controller="LayoutController as vm">
+  {{ vm.text }}
+  <div
+    recompile='TODO: was directive to recompile on rootScope event'
+    ng-controller="LayoutController as vm"
+    class="outer_container"
+    ng-class="'layout-' + vm.currentStateCSS"
+  >
+    <layout-content class='outer_container'/>
+  </div>
+</div>
