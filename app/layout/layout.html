@@ -1,7 +1,7 @@
 <div id="layout_controller" ng-controller="LayoutController as vm" style="display:none;">
   {{ vm.text }}
+  <!-- recompile='TODO: was directive to recompile on rootScope event' -->
   <div
-    recompile='TODO: was directive to recompile on rootScope event'
     ng-controller="LayoutController as vm"
     class="outer_container"
     ng-class="'layout-' + vm.currentStateCSS"
