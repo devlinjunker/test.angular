@@ -26,6 +26,10 @@
     "**/*.ts"
   ],
   "exclude": [ // TODO: test
-    "node_modules"
-  ]
+    "node_modules",
+  ],
+  "angularCompilerOptions": {
+    "genDir": "aot/",
+    "skipMetadataEmit": true
+  },
 }

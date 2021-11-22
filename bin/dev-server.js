@@ -7,7 +7,13 @@ const express = require('express');
 // const proxy = require('express-http-proxy');
 
 // TODO: could be dynamic
-const BUILD_DIR = './dist';
+let BUILD_DIR = './dist';
+
+if (process.argv.includes('--prod')) {
+    console.log("PROD MODE");
+    BUILD_DIR += '/aot';
+}
+
 const PORT = 3333;
 
 const app = express();

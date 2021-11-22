@@ -8,9 +8,11 @@
     "build:dev": "webpack",
     "build:ng": "npm run build:ngc",
     "build:ngc": "ngc",
+    "build:prod": "webpack --config webpack.aot.js",
     "clean": "rm -rf dist",
     "serve": "npm run serve:dev",
     "serve:dev": "nodemon bin/dev-server.js",
+    "serve:prod": "nodemon bin/dev-server.js --prod",
     "watch": "npm run watch:only",
     "watch:only": "webpack --watch",
     "watch:dev": "webpack --watch & nodemon bin/dev-server.js"

@@ -18,4 +18,4 @@ export default angular
 )
 
 .component('layoutContent', LayoutContentComponent)
-.controller('LayoutController', LayoutController);
+.controller('LayoutController', ['$rootScope', LayoutController]);

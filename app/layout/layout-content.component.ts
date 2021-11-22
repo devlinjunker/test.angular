@@ -9,3 +9,4 @@ function LayoutContentController($scope: ng.IScope) {
   const vm = this;
   vm.layoutScope = ($scope.$parent.$parent as any).vm;
 }
+LayoutContentController.$inject = ['$scope'];
