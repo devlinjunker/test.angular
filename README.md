@@ -66,9 +66,10 @@ Simplified Implementation of an AngularJS/Angular Hybrid Application
   - Add Angular Component Downgrade
   - Ensure App Module AJS depdends on this
 
-12. Create Component Module
+13. Create Component Module
   - Ensure App Module Loads Component Module
 
+14. SETTINGS_OBJ cleanup
 
 ## Questions:
 
@@ -95,4 +96,5 @@ Simplified Implementation of an AngularJS/Angular Hybrid Application
   - PlatformBrowser() vs PlatformBrowserDynamic()
   - @ngtools/webpack
 - [ ] No More AngularJS?
-- [ ] API Data Requests and Precompiled HTML?
+- [ ] API Data Requests
+- [ ] Compiled HTML in API/first request
