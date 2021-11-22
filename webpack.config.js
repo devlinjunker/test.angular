@@ -29,7 +29,7 @@ module.exports = {
             options: {
               experimentalWatchApi: true, // TODO: test this - allows --watch to work?
             }
-          }
+          }, 'angular2-template-loader'
         ]
       },
       {

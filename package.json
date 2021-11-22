@@ -25,6 +25,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.8.2",
+    "angular2-template-loader": "^0.6.2",
     "jquery": "^3.6.0",
     "karma": "^6.3.9",
     "lodash": "^4.17.21",
