@@ -1,6 +1,7 @@
 import { Injector, NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { UpgradeModule } from '@angular/upgrade/static';
+import { TranslateModule } from '@ngx-translate/core';
 import { ComponentModule } from "components/component.module";
 import appModule from './app.module.ajs';
 
@@ -8,6 +9,7 @@ import appModule from './app.module.ajs';
   imports: [
     BrowserModule,
     UpgradeModule,
+    TranslateModule.forRoot(),
     ComponentModule,
   ]
 })

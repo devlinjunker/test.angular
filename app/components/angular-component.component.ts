@@ -7,6 +7,8 @@ import { Component, OnInit } from "@angular/core";
 export class AngularComponent implements OnInit {
   public text: string;
 
+  public translateKey: string = 'TEST';
+
   ngOnInit(): void {
     this.text = SETTINGS_OBJ.constants.angularTest
   }
