@@ -1,0 +1,3 @@
+export const TRANSLATION_KEYS = {
+  EXAMPLE: 'TRANSLATION_EXAMPLE'
+}
