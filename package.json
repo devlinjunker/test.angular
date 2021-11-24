@@ -23,6 +23,7 @@
   "license": "ISC",
   "dependencies": {
     "angular": "^1.8.2",
+    "angular-translate": "^2.19.0",
     "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "zone.js": "^0.11.4"
@@ -37,6 +38,7 @@
     "@ngtools/webpack": "^10.2.1",
     "@ngx-translate/core": "^13.0.0",
     "@types/angular": "^1.8.3",
+    "@types/angular-translate": "^2.16.3",
     "@types/jquery": "^3.5.8",
     "angular2-template-loader": "^0.6.2",
     "copy-webpack-plugin": "^6.4.1",

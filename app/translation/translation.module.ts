@@ -4,6 +4,7 @@ import { TranslationLoaderService } from "./translation-loader.service";
 
 
 @NgModule({
+  providers: [TranslationLoaderService],
   exports: [TranslateModule],
   imports: [TranslateModule.forRoot({
     loader: {
