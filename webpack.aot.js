@@ -54,11 +54,10 @@ module.exports = {
       }),
       new CopyWebpackPlugin({
         patterns: [
-          // TODO: test images
-          // {
-          //   from: 'images',
-          //   to: 'images',
-          // },
+          {
+            from: 'images',
+            to: 'images',
+          },
           {
             from: 'conf',
             to: 'conf',
