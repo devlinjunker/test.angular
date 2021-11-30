@@ -1,3 +1,5 @@
 <p>{{ text }}</p>
 
-<p>{{ translateKey | translate }}</p>
+<div>
+  <span [ngClass]="{ test: translateKey !== undefined }">{{ translateKey | translate }}</span>
+</div>

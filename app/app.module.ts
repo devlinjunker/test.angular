@@ -1,3 +1,4 @@
+import { CommonModule } from "@angular/common";
 import { Injector, NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { UpgradeModule } from '@angular/upgrade/static';
@@ -9,6 +10,7 @@ import appModule from './app.module.ajs';
     BrowserModule,
     UpgradeModule,
     ComponentModule,
+    CommonModule
   ]
 })
 export class AppModule {

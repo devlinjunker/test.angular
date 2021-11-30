@@ -4,7 +4,6 @@ import { TRANSLATION_KEYS } from '../../shared/translation-keys';
 
 @Component({
   selector: 'angular-component',
-  // template: require('components/angular-component.html')
   templateUrl: './angular-component.html'
 })
 export class AngularComponent implements OnInit {
